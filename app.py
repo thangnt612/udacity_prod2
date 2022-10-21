@@ -135,7 +135,7 @@ def delete_ad_request(id):
 # running app
 def main():
     print(' ----->>>> Flask Python Application running in development server')
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
 
 
 if __name__ == '__main__':
